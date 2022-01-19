@@ -109,6 +109,15 @@ export const clearBookmarks = function () {
   localStorage.clear('bookmarks');
 };
 
+/**
+ * Upload recipe
+ * @param {Object | Object[]} newRecipe The data to be rendererd
+ * @returns { undefined | string } will return a string if render = false
+ * @this {Object} View instance
+ * @author Lipin Nambiar
+ * @todo Finished implimentation required to add test cases
+ */
+
 export const uploadRecipe = async function (newRecipe) {
   try {
     const ingredients = Object.entries(newRecipe)

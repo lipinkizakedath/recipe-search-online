@@ -9,9 +9,9 @@ import addRecipeView from './views/addRecipeView.js';
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
-if (model.hot) {
-  model.hot.accept();
-}
+// if (model.hot) {
+//   model.hot.accept();
+// }
 
 const controlRecipies = async function () {
   try {
